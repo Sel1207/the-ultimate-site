@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>The Ultimate</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+      <div class="navbar-title">THE ULTIMATE</div>
+
+      <nav class="nav-menu" id="nav-menu">
+        <div class="toggle-wrapper">
+            <input type="checkbox" id="theme-toggle" />
+            <label for="theme-toggle" class="slider"></label>
+          </div>
+          
+
+        <div class="dropdown">
+          <a href="#future">Vision ▾</a>
+          <div class="dropdown-content">
+            <a href="#future">Smart Design</a>
+            <a href="#future">Performance</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <a href="#interactive">Experience ▾</a>
+          <div class="dropdown-content">
+            <a href="#interactive">UX Flow</a>
+            <a href="#interactive">Motion Design</a>
+          </div>
+        </div>
+
+        <div class="dropdown">
+          <a href="#contact">Contact ▾</a>
+          <div class="dropdown-content">
+            <a href="#contact">Email Us</a>
+            <a href="#contact">Consultations</a>
+          </div>
+        </div>
+      </nav>
+
+      <div class="hamburger" id="hamburger">&#9776;</div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero parallax">
+      <img src="logo-transparent.png" alt="The Ultimate Logo" class="hero-logo" />
+      <h1>The Future. Designed Today.</h1>
+      <p>A fluid digital experience built for movement, clarity, and edge.</p>
+    </section>
+
+    <!-- CONTENT SECTIONS -->
+    <section id="future" class="content reveal">
+      <h2>Smart Design</h2>
+      <p>Good design bridges function and form. Our interface adapts seamlessly to devices, delivering both beauty and usability.</p>
+      <p>We ensure intuitive navigation and minimal cognitive load across all platforms. Over 95% of our user base report increased efficiency.</p>
+      <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%22bar%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22Usability%22%2C%22Accessibility%22%2C%22Speed%22%5D%2C%22datasets%22%3A%5B%7B%22label%22%3A%22Performance%22%2C%22data%22%3A%5B95%2C89%2C93%5D%2C%22backgroundColor%22%3A%5B%22%23aeefff%22%2C%22%23666%22%2C%22%2300a3cc%22%5D%7D%5D%7D%7D" alt="Performance Stats" class="graph">
+    </section>
+
+    <section id="interactive" class="content reveal">
+      <h2>Immersive Experience</h2>
+      <p>Engagement matters. From smooth animations to interactive elements, every component is designed to keep users connected.</p>
+      <p>We use motion feedback, hover states, and responsive layouts to elevate retention by over 40%.</p>
+      <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%22doughnut%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22UX%22%2C%22Speed%22%2C%22Design%22%5D%2C%22datasets%22%3A%5B%7B%22data%22%3A%5B45%2C30%2C25%5D%2C%22backgroundColor%22%3A%5B%22%23aeefff%22%2C%22%23888%22%2C%22%23333%22%5D%7D%5D%7D%7D" alt="User Experience Chart" class="graph" />
+    </section>
+
+    <section id="contact" class="content reveal">
+      <h2>Let’s Connect</h2>
+      <p>Whether scaling your startup or transforming your enterprise, we deliver modern web experiences that drive engagement.</p>
+      <p>Join 1,200+ professionals already using The Ultimate. Collaboration starts with a conversation.</p>
+      <img src="https://quickchart.io/chart?c=%7B%22type%22%3A%22pie%22%2C%22data%22%3A%7B%22labels%22%3A%5B%22Email%22%2C%22Consultations%22%2C%22Collaborations%22%5D%2C%22datasets%22%3A%5B%7B%22data%22%3A%5B50%2C30%2C20%5D%2C%22backgroundColor%22%3A%5B%22%23aeefff%22%2C%22%23555%22%2C%22%2300a3cc%22%5D%7D%5D%7D%7D" alt="Contact Engagement Chart" class="graph" />
+    </section>
+
+    <button id="back-to-top" title="Back to Top">↑</button>
+
+    <footer class="footer">
+      <p>© 2025 THE ULTIMATE. Built with precision.</p>
+    </footer>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
